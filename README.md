@@ -3,6 +3,8 @@ This is a simple React component wrapper that allows you to specify a component 
 Example usage:
 
 ```
+import OfflineComponent from 'offline-component';
+
 const Offline = () => <p>Your connection is not stable, please try again later</p>;
 
 const Header = () => (
