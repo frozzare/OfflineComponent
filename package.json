@@ -4,9 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build:dev": "webpack --env=dev",
-    "build:dist": "webpack --env=prod",
-    "start": "webpack-dev-server --env=dev --open",
+    "build": "webpack",
     "prepublish": "npm run build:dist"
   },
   "author": "",
